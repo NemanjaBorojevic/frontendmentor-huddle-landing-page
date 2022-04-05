@@ -1,0 +1,37 @@
+:root {
+  // COLOR VARIABLES
+  --color-primary: #ff52bf;
+
+  --color-grey-light-1: #ebfbff;
+  --color-grey-light-2: #808d99;
+  --color-grey-dark-1: #00252e;
+
+  // FONT FAMILY VARIABLES
+  --font-family-heading: "Poppins", sans-serif;
+  --font-family-normal: "Open Sans", sans-serif;
+
+  // FONT WEIGHT VARIABLES
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: var(--font-family-normal);
+  color: var(--color-grey-dark-1);
+  font-weight: 400;
+  line-height: 1.6;
+}
